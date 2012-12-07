@@ -1,1 +1,15 @@
-target/
+.project
+.classpath
+.settings
+*.swp
+*/*.swp
+*/target
+*/.settings
+*/.classpath
+*/.project
+*/*.iml
+*/*.ipr
+*/*.iws
+*/build
+.DS_Store
+*/logs

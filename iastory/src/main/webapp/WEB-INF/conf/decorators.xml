@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/decorators">
+	<excludes>
+		<pattern>/verifyImage</pattern>
+		<pattern>/*.ajax</pattern>
+		<pattern>/*.jsp</pattern>
+	</excludes>
+	<decorator name="embed" page="embed.ftl">
+		<pattern>*/embed/*</pattern>
+	</decorator>
+	<decorator name="common" page="common.ftl">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
